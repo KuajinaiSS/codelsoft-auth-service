@@ -1,0 +1,37 @@
+﻿version: "3.8"
+
+networks:
+  authserviceapp:
+
+services:
+  auth-service-db:
+    container_name: auth-service-db
+    restart: always
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=yourStrongPassword#1234
+    ports:
+      - "1433:1433"
+    networks:
+      - authserviceapp
+      
+  
+  auth-service-server:
+    container_name: auth-service-server
+    image: auth-service
+    build:
+      context: .
+      dockerfile: auth-service/Dockerfile
+    ports:
+      - "8001:8080"
+    depends_on:
+      - auth-service-db
+    environment:
+      - DB_HOST=auth-service-db
+      - DB_NAME=Auth-Service-DB
+      - DB_SA_PASSWORD=yourStrongPassword#1234
+    networks:
+      - authserviceapp
+
+# $APP_UID

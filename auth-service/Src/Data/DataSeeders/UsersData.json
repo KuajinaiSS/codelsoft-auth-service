@@ -1,0 +1,16 @@
+﻿[
+  {
+    "Email": "admin@example.com",
+    "HashedPassword": "admin",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "user@example.com",
+    "HashedPassword": "user",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  }
+]
