@@ -1,4 +1,5 @@
 ﻿# codelsoft-auth-service
+Este microservicio usa el puerto 5001, necesitas tenerlo habitado para usar este microservicio (localhost:5001)
 ### Requisitos previos (por confirmar)
 
 - SDK [.NET8](https://dotnet.microsoft.com/es-es/download/dotnet/8.0).
