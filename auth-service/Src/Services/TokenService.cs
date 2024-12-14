@@ -47,7 +47,6 @@ public class TokenService : ITokenService
         Console.Write("blackList: "+ isInBlackList + "\nExpired: " + isExpiredToken);
         var response = new TokenValidateResponse
         {
-            Token = tokenValidateRequest.Token,
             IsValid = isExpiredToken && isInBlackList == null
         };
         

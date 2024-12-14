@@ -2,7 +2,5 @@
 
 public class TokenValidateResponse
 {
-    public string Token { get; set; } = null!;
-    
     public bool IsValid { get; set; } = false;
 }
