@@ -1,14 +1,77 @@
 ﻿[
   {
-    "Email": "admin@example.com",
-    "HashedPassword": "admin",
+    "Email": "david.araya@alumnos.ucn.cl",
+    "HashedPassword": "david123",
     "Token": "",
     "IsEnabled": true,
     "RoleId": 1
   },
   {
     "Email": "user@example.com",
-    "HashedPassword": "user",
+    "HashedPassword": "pedro123",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "maria.lopez@example.com",
+    "HashedPassword": "hashedpassword2",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "carlos.martinez@example.com",
+    "HashedPassword": "hashedpassword3",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "ana.garcia@example.com",
+    "HashedPassword": "hashedpassword4",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "pedro.sanchez@example.com",
+    "HashedPassword": "hashedpassword5",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "laura.ramirez@example.com",
+    "HashedPassword": "hashedpassword6",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "jorge.hernandez@example.com",
+    "HashedPassword": "hashedpassword7",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "sofia.ortega@example.com",
+    "HashedPassword": "hashedpassword8",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "daniel.morales@example.com",
+    "HashedPassword": "hashedpassword9",
+    "Token": "",
+    "IsEnabled": true,
+    "RoleId": 1
+  },
+  {
+    "Email": "camila.fuentes@example.com",
+    "HashedPassword": "hashedpassword10",
     "Token": "",
     "IsEnabled": true,
     "RoleId": 1
